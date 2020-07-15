@@ -63,22 +63,28 @@ body{
     background: red;
     /* flex-grow: 3;
     flex-shrink: 1; */
+    order: 1;
 }
 
 .box-2{
     background: rgb(43, 167, 125);
     /* flex-grow: 1;
     flex-shrink: 5; */
+    order: 2;
 }
 
 .box-3{
     background: rgb(212, 85, 185);
     /* flex-grow: 1;
     flex-shrink: 5; */
+    order: 0;
 }
 
 .box-4{
     background: rgb(160, 190, 52);
     /* flex-grow: 3;
     flex-shrink: 6; */
+    order: 0;
 }
+
+/* Order cao đứng cuối */
