@@ -34,7 +34,7 @@ body{
         thì là càng biến mất trước
     */
     /* flex-wrap: Khi thu nhỏ sẽ bao bọc phần nội dung bên trong, khi thu nhỏ
-    đến giới hạn width của tp con sẽ xuống dòng
+    đến giới hạn width của tp con sẽ xuống dòng, đặt ở tp cha
     */
     /* width: 240px; */
     flex-grow: 1;
