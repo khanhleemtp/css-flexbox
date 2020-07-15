@@ -26,7 +26,8 @@ body{
 
 .box{
     height: 100px;
-    min-width: 200px;
+    /* min-width: 200px; */
+    /* flex-basis: 500px; */
     /* float: left; */
     /* flex-grow: 1; */ 
     /* flex-grow: Chiếm phần còn lại , tăng nhờ không gian có sẵn :v ; */
@@ -36,8 +37,13 @@ body{
     /* flex-wrap: Khi thu nhỏ sẽ bao bọc phần nội dung bên trong, khi thu nhỏ
     đến giới hạn width của tp con sẽ xuống dòng, đặt ở tp cha
     */
+    /* flex-basis: giống min-width nhưng khi nhỏ lại hạn chế min-width là
+    phải cuộn lại xem all yếu tố khi đạt chiều rộng tối thiểu
+    */
     /* width: 240px; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    flex: 1 0 200px;
+    /* grow shirk basis */
 }
 
 .box-1{
