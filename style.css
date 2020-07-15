@@ -16,6 +16,10 @@ body{
     display: flex;
     background: #fff;
     flex-wrap: wrap-reverse;
+    /* flex-flow: row; */
+    flex-flow: column;
+    justify-content: flex-start;
+    height: 800px;
 }
 
 /* .flex-container:after{
@@ -42,8 +46,11 @@ body{
     */
     /* width: 240px; */
     /* flex-grow: 1; */
-    flex: 1 0 200px;
+    flex: 0 0 100px;
     /* grow shirk basis */
+    /* flex-flow: Axis: trục, row: trục chính nằm ngang, column: trục chính dọc
+        1 số thuộc tính chỉ đc sd ở trục chính :D VD justify-content: ;
+    */
 }
 
 .box-1{
