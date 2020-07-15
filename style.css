@@ -18,7 +18,12 @@ body{
     flex-wrap: wrap-reverse;
     /* flex-flow: row; */
     flex-flow: column;
-    justify-content: flex-start;
+    flex-flow: row;
+    flex-flow: column;
+    justify-content: center;
+    /* Main Axis */
+    align-items: center;
+    /* Cross Axis */
     height: 800px;
 }
 
@@ -29,7 +34,8 @@ body{
 } */
 
 .box{
-    height: 100px;
+    /* height: 100px; */
+    width: 100px;
     /* min-width: 200px; */
     /* flex-basis: 500px; */
     /* float: left; */
