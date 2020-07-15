@@ -15,6 +15,7 @@ body{
 .flex-container{
     display: flex;
     background: #fff;
+    flex-wrap: wrap-reverse;
 }
 
 /* .flex-container:after{
@@ -25,36 +26,40 @@ body{
 
 .box{
     height: 100px;
-    min-width: 100px;
+    min-width: 200px;
     /* float: left; */
     /* flex-grow: 1; */ 
     /* flex-grow: Chiếm phần còn lại , tăng nhờ không gian có sẵn :v ; */
     /* flex-shrink: Xác định thứ tự khi trình duyệt co lại, số càng to
         thì là càng biến mất trước
     */
-    width: 240px;
+    /* flex-wrap: Khi thu nhỏ sẽ bao bọc phần nội dung bên trong, khi thu nhỏ
+    đến giới hạn width của tp con sẽ xuống dòng
+    */
+    /* width: 240px; */
+    flex-grow: 1;
 }
 
 .box-1{
     background: red;
-    flex-grow: 3;
-    flex-shrink: 1;
+    /* flex-grow: 3;
+    flex-shrink: 1; */
 }
 
 .box-2{
     background: rgb(43, 167, 125);
-    flex-grow: 1;
-    flex-shrink: 5;
+    /* flex-grow: 1;
+    flex-shrink: 5; */
 }
 
 .box-3{
     background: rgb(212, 85, 185);
-    flex-grow: 1;
-    flex-shrink: 5;
+    /* flex-grow: 1;
+    flex-shrink: 5; */
 }
 
 .box-4{
     background: rgb(160, 190, 52);
-    flex-grow: 3;
-    flex-shrink: 6;
+    /* flex-grow: 3;
+    flex-shrink: 6; */
 }
